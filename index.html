@@ -104,22 +104,26 @@
   .container{
         flex-direction: column;
     }
-input{ 
+    
+input{
        position: sticky;
-        width:200%;
+        width:150%;
         height:40px;
 }
 img{
-   position:relative; 
-   left:50%;
+    margin: 10px;
    border-radius: 20%;
+   float: left;
 }
 .heading{
+    display: flex;
     position: relative;
-    left:6em;
-    text-align: center;
+    top:20px;
+    font-size: larger;
 }
-
+.right-side{
+    width:100%;
+}
 }
 
 </style>
@@ -129,8 +133,7 @@ img{
         <div class="left-side">
             <img src="./my pic.jpg" alt="mypic">
             <div class="heading">
-                <p>Available for Work</p>
-                <p> Hello i'm<br/><span><strong> NAGUR BASHEER</strong></span><br/>Web Designer and Developer<br/>Visakhapatnam,Andhra Pradesh</p>
+                <p>Available for Work<br/> Hello i'm<br/><span><strong> NAGUR BASHEER</strong></span><br/>Web Designer and Developer<br/>Visakhapatnam,Andhra Pradesh</p>
             </div>
             <div class="contact">
              <form>
